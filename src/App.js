@@ -103,16 +103,24 @@ function ChatRoom() {
 }
 
 function ChatMessage(props) {
-  const { text, uid, photoURL } = props.message;
+  const { text, uid, photoURL, createdAt } = props.message;
 
   const messageClass = uid === auth.currentUser.uid ? 'sent' : 'received';
+
+  const date = createdAt.toDate();
+  const hour = date.getHours();
+  const minute = date.getMinutes();
+  const second = date.getSeconds();
 
   return (<>
     <div className={`message ${messageClass}`}>
       <img src={photoURL} />
-      <p>{text}</p>
+      <p>
+        {text}
+        <p>{hour + ":" + minute + ":" + second}</p>
+      </p>
     </div>
-    </>)
+  </>)
 }
 
 export default App;

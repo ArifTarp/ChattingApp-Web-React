@@ -124,6 +124,7 @@ p {
   position: relative;
   color: white;
   text-align: center;
+  padding-bottom: 0px;
 }
 
 .message {
@@ -151,4 +152,11 @@ img {
   height: 40px;
   border-radius: 50%;
   margin: 2px 5px;
+}
+
+.message p p {
+  margin: 0;
+  padding: 0;
+  text-align: end;
+  color: darkseagreen;
 }
