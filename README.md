@@ -11,3 +11,4 @@
 
 ## UI Views
 ![signIn](https://github.com/ArifTarp/ChattingApp-Web-React/blob/main/screen_shots/loginWithGoogle.png)
+![chats](https://github.com/ArifTarp/ChattingApp-Web-React/blob/main/screen_shots/chats.png)
