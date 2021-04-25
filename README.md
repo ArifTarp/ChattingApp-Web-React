@@ -2,7 +2,7 @@
 
 ## Used Technologies
 - React
-- Firebase Authentication (Sign In with Google Account)
+- Firebase Authentication (Sign In with Google Account) OAuth2
 - Firestore Database
 
 ## Functionalities in project
