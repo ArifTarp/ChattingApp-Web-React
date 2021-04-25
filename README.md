@@ -8,3 +8,6 @@
 ## Functionalities in project
 - Ability to send a message from the logged in account.
 - Realtime messaging.
+
+## UI Views
+![signIn](https://github.com/ArifTarp/ChattingApp-Web-React/blob/main/screen_shots/loginWithGoogle.png)
